@@ -1,11 +1,8 @@
 <?php
 $db_host = "localhost";
-<<<<<<< HEAD
 $db_user = "superadmin";
-=======
 $db_user = "admin_logistic";
 $db_user = "corner_admin";
->>>>>>> 574134e6bd6799085ce6fda0b6d75a3667ad9c52
 $db_pass = "";
 $db_name = "logistic_corner";
 
@@ -25,4 +22,9 @@ if (!$conn) {
 //menambahkann syntax 3
 ini_set('display_errors', 1);
 error_reporting(E_ALL);
+
+//hendra menambah syntax 1
+$upload_dir = "uploads/";
+$max_file_size = 5242880;
+$allowed_extensions = array("jpg", "jpeg", "png", "pdf");
 ?>
