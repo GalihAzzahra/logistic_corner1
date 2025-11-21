@@ -19,9 +19,6 @@ $conn = mysqli_connect($db_host, $db_user, $db_pass, $db_name);
 if (!$conn) {
     die("Connection failed: " . mysqli_connect_error());
 }
-//menambahkann syntax 3
-ini_set('display_errors', 1);
-error_reporting(E_ALL);
 
 
 //menambahkan sintaks 2
