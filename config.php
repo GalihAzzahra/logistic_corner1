@@ -19,8 +19,14 @@ if (!$conn) {
     die("Connection failed: " . mysqli_connect_error());
 }
 
+<<<<<<< HEAD
 //hendra menambah syntax 1
 $upload_dir = "uploads/";
 $max_file_size = 5242880;
 $allowed_extensions = array("jpg", "jpeg", "png", "pdf");
+=======
+//menambahkan sintaks 2
+date_default_timezone_set('Asia/Jakarta');
+$timezone = "Asia/Jakarta";
+>>>>>>> azizi
 ?>
