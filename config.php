@@ -1,6 +1,6 @@
 <?php
 $db_host = "localhost";
-$db_user = "root";
+$db_user = "superadmin";
 $db_pass = "";
 $db_name = "logistic_corner";
 
