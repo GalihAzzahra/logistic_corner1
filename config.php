@@ -1,6 +1,10 @@
 <?php
 $db_host = "localhost";
+<<<<<<< HEAD
 $db_user = "admin_logistic";
+=======
+$db_user = "corner_admin";
+>>>>>>> galih
 $db_pass = "";
 $db_name = "logistic_corner";
 
