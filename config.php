@@ -18,4 +18,8 @@ $conn = mysqli_connect($db_host, $db_user, $db_pass, $db_name);
 if (!$conn) {
     die("Connection failed: " . mysqli_connect_error());
 }
+
+//menambahkan sintaks 2
+date_default_timezone_set('Asia/Jakarta');
+$timezone = "Asia/Jakarta";
 ?>
